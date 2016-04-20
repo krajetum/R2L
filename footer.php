@@ -1,13 +1,5 @@
-<?php
-/**
- * Default Footer
- *
- * @package WordPress
- * @subpackage BootstrapWP
- */
-?>
         <footer>
-            <div class="container">
+            <div class="container r2l_footer">
                 <p>&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?></p>
                 <?php
                 if (function_exists('dynamic_sidebar')) {

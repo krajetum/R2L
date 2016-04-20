@@ -26,3 +26,13 @@ Not comfortable with LESS?  You can override the compiled bootstrapwp.css file b
 body{
     background: #34495e;
 }
+
+.r2l_wrapper, .r2l_footer{
+    background: #ecf0f1;
+    padding: 0 1rem;
+}
+
+
+.post{
+    padding: 0 1rem;
+}

@@ -9,7 +9,7 @@
 get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
 
-  <div class="container">
+  <div class="container r2l_wrapper">
     <div class="row">
         <div class="span12">
             <?php if (function_exists('bootstrapwp_breadcrumbs')) {

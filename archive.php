@@ -11,7 +11,7 @@ get_header(); ?>
     // Queue the first post.
     the_post(); ?>
 
-    <div class="container">
+    <div class="container r2l_wrapper">
         <div class="row">
             <div class="span12">
                 <?php if (function_exists('bootstrapwp_breadcrumbs')) {
