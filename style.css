@@ -36,7 +36,17 @@ body{
 .post{
     padding: 0 1rem;
 }
+.post-title{
+    display: flex;
+}
+
+/*
+    TODO: Image 50x50
+*/
 .post-icon{
+    margin-right: 1rem;
     width: 80px;
     height: 80px;
+    background-image: url("img/r2l_icon.png");
+
 }

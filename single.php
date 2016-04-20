@@ -19,7 +19,7 @@ get_header(); ?>
     </div><!--/.row -->
 
     <header class="post-title">
-        <img src="img/r2l_icon.png" class="post-icon"/>
+        <div class="post-icon"></div>
         <h1><?php the_title();?></h1>
     </header>
 
@@ -37,3 +37,4 @@ get_header(); ?>
 
     <?php get_sidebar('blog'); ?>
     <?php get_footer(); ?>
+
