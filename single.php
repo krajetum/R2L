@@ -19,6 +19,7 @@ get_header(); ?>
     </div><!--/.row -->
 
     <header class="post-title">
+        <img src="img/r2l_icon.png" class="post-icon"/>
         <h1><?php the_title();?></h1>
     </header>
 

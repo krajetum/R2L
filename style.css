@@ -36,3 +36,7 @@ body{
 .post{
     padding: 0 1rem;
 }
+.post-icon{
+    width: 80px;
+    height: 80px;
+}

@@ -10,7 +10,6 @@
 
     <div class="row content">
         <div class="span8">
-
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div <?php post_class(); ?>>
                     <a href="<?php the_permalink(); ?>" title="<?php the_title();?>">

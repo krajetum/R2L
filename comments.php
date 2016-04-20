@@ -15,8 +15,9 @@ if (post_password_required()) {
     return;
 } ?>
 <div id="comments" class="comments-area">
-    <?php if (have_comments()) : ?>
 
+    <?php if (have_comments()) : ?>
+        <h3>Commenti</h3>
         <ul class="media-list">
             <?php wp_list_comments(array('callback' => 'bootstrapwp_comment')); ?>
         </ul><!-- /.commentlist -->
